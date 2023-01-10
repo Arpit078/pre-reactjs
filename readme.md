@@ -1,4 +1,4 @@
-# preactJS 😁
+# ReactionJS 😁
 a JS framework that helps you make single page web apps, while saving you burn your head learning complex frameworks made for industries.
 # Installation and create app
     $> npm install @arpit078/preactjs
@@ -25,7 +25,7 @@ a JS framework that helps you make single page web apps, while saving you burn y
      To make these some points to consider are:
         
         a. use template literals `` to write the html code in js file.
-
+        
         b. use inline html vs code extention to make life easier.
 
         c. don't forget to default export your const variable.

@@ -258,7 +258,7 @@ a JS framework that helps you make single page web apps, while saving you burn y
      some examples have been already made inside the diretory. 
      To make these some points to consider are:
         
-        a. use template literals `` to write the html code in js file.
+        a. use template literals to write the html code in js file.
         
         b. use inline html vs code extention to make life easier.
 
