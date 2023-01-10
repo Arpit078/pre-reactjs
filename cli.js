@@ -232,7 +232,7 @@ const aboutcssContent = `
 }
 `
 const readmeContent = `
-# ReactionJS 😁
+# preactJS 😁
 a JS framework that helps you make single page web apps, while saving you burn your head learning complex frameworks made for industries.
 # Installation and create app
     $> npm install @arpit078/preactjs
