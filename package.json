@@ -1,0 +1,31 @@
+{
+  "name": "akv-js",
+  "version": "1.0.0",
+  "description": "A single page frontend vanilla javascript framework that can implement virtual dom ,component reuse and easier to get started compared that to reactJS",
+  "main": "cli.js",
+  "bin": {
+    "akvJS": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arpit078/avJS.git"
+  },
+  "keywords": [
+    "akvJS",
+    "ReactJS for vanillaJS",
+    "virtual dom in vanillaJS",
+    "JSX in vanillaJS"
+  ],
+  "author": "Arpit078",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Arpit078/avJS/issues"
+  },
+  "homepage": "https://github.com/Arpit078/avJS#readme",
+  "dependencies": {
+    "akv-js": "^1.0.0"
+  }
+}
