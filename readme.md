@@ -10,7 +10,7 @@ a JS framework that helps you make single page web apps, while saving you burn y
     from vs code extension store.
 # Documentation
 
-## FOLDER STRUCTURE
+    FOLDER STRUCTURE
     ├───assets
     ├───components
     │   └───styles
