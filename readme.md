@@ -3,6 +3,7 @@ a JS framework that helps you make single page web apps, while saving you burn y
 # Installation and create app
     $> npm install @arpit078/preactjs
     $> npx @arpit078/preactjs
+### and open /public/index.html with live server
 # requirements for dev environment
     - node and npm installed to run the cli script.
     - VS code prefered.
