@@ -40,7 +40,7 @@ function onNavigate(pathname){
     dom.innerHTML = routes[window.location.pathname];
 }
 
-//add your navigation buttons or links redirect route here!
+//add your page addresses key value pair here, also change these relative to hosting
 
 function more(){
     onNavigate("/public/more")
@@ -141,7 +141,7 @@ const aboutContent = `const about = /*html*/\`${about}\`\nexport default about`
 
 const indexcssContent = `
 body{
-  // margin: 0;
+  margin: 0;
   font-family: 'Poppins', sans-serif;
 }
 #virtual-dom{
