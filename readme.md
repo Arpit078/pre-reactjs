@@ -27,7 +27,7 @@ a JS framework that helps you make single page web apps, while saving you burn y
         
         a. use template literals `` to write the html code in js file.
         
-        b. use inline html vs code extention to make life easier.
+        b. use inline html vs code extension to make life easier.
 
         c. don't forget to default export your const variable.
     
