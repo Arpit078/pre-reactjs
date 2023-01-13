@@ -19,6 +19,7 @@ for(i=0;i<folderNames.length;i++){
 
 
 const routerContent = `
+
 const dom = document.getElementById('virtual-dom');
 
 //load data from sessionStorage for pages from here
@@ -26,27 +27,37 @@ const moreData = sessionStorage.getItem("more")
 const aboutData =sessionStorage.getItem("about")
 
 //add your page addresses key value pair here
-const routes = {"/public/":aboutData,
-                "/public/more":moreData}
+const routes = {"":aboutData,
+                "#more":moreData}
 
 
 //don't touch this function            
 function onNavigate(pathname){
-    window.history.pushState(
-        {},
-        '',
-        window.location.origin +pathname
-        )
-    dom.innerHTML = routes[window.location.pathname];
+    // window.history.pushState(
+    //     {},
+    //     '',
+    //     window.location.origin +pathname
+    //     )
+    window.location.hash = pathname
+    dom.innerHTML = routes[window.location.hash];
+    
 }
+
+
+//this condition checks if the page loaded is the same as in hash
+if(window.location.hash in routes == true){
+    dom.innerHTML = routes[window.location.hash];
+}
+
+
 
 //add your page addresses key value pair here, also change these relative to hosting
 
 function more(){
-    onNavigate("/public/more")
+    onNavigate("#more")
 }
 function about(){
-    onNavigate("/public/")
+    onNavigate("")
 }
 
 
@@ -151,6 +162,8 @@ const indexcssContent = `
 body{
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right,rgba(88, 33, 33, 0.481),rgba(245, 222, 179, 0.282));
+
 }
 #virtual-dom{
   height: 100%;
@@ -185,8 +198,6 @@ const aboutcssContent = `
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right,rgba(128, 128, 128, 0.359),rgba(245, 222, 179, 0.282));
-
   /* flex-direction: column; */
   /* background: linear-gradient(red,blue); */
   
