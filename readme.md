@@ -1,5 +1,5 @@
 # preactJS 😁
-a JS framework that helps you make single page web apps, while saving you burn your head learning complex frameworks made for industries.
+a JS framework that helps you make single page web apps, while saving you from burning your head learning complex frameworks made for industries.
 # Installation and create app
     $> npm install @arpit078/preactjs
     $> npx @arpit078/preactjs
