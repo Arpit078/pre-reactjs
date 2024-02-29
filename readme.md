@@ -25,3 +25,6 @@ node server
 6. when calling a component in a file use call like a function -> "{Navbar()}"
 7. no other restriction on file naming only you need to make your entry file as Home.js and logic and pages files must have same names.
 
+![image](https://github.com/Arpit078/pre-reactjs/assets/92263716/9c9489ee-7da8-4b92-9688-18dad29f8e23)
+![image](https://github.com/Arpit078/pre-reactjs/assets/92263716/bf64b179-c01c-4895-bb1d-de321c29b68e)
+
