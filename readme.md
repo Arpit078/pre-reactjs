@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+=======
+# pre-reactJS 😁
+a JS framework that helps you make single page web apps, while saving you from burning your head learning complex frameworks made for industries.
+# Installation and create app
+    $> npm install @arpit078/preactjs
+    $> npx @arpit078/preactjs
+### and open /public/index.html with live server
+# requirements for dev environment
+    - node and npm installed to run the cli script.
+    - VS code prefered.
+    - install inline html and live server extensions 
+    from vs code extension store.
+# Documentation
+>>>>>>> f2d96e61b2865fed9fd39ae2aec754d624ee4730
 
 ## strong instructions
 1. do not delete Pages folder.
