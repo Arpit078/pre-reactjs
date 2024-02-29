@@ -1,0 +1,1 @@
+console.log("logic file of contact js")
