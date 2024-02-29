@@ -1,6 +1,6 @@
 {
   "name": "@arpit078/preactjs",
-  "version": "2.0",
+  "version": "1.6.0",
   "description": "A single page frontend vanilla javascript framework that can implement virtual dom ,component reuse and easier to get started compared that to reactJS",
   "main": "cli.js",
   "bin": {
