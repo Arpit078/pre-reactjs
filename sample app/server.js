@@ -10,6 +10,10 @@ import path from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
+import compiler from './scripts/compile.js';
+
+await compiler();
+
 const server = http.createServer(async (req, res) => {
     const { method, url } = req;
 

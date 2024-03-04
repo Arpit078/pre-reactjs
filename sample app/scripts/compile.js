@@ -10,7 +10,8 @@ import path from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-
+const compiler = async()=>{
+  
 function readDirAsync(directoryPath) {
 	return new Promise((resolve, reject) => {
 		fs.readdir(directoryPath, (err, files) => {
@@ -159,4 +160,7 @@ if(logicRoutes.includes(window.location.hash.slice(1)))
 fs.appendFileSync(routerFilePath, routesObj, (err, contents) => {
 	if (err) throw err;
 });
+}
+
+export default compiler;
 

@@ -29,7 +29,8 @@ import path from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-
+const compiler = async()=>{
+    
 function readDirAsync(directoryPath) {
 	return new Promise((resolve, reject) => {
 		fs.readdir(directoryPath, (err, files) => {
@@ -179,6 +180,8 @@ fs.appendFileSync(routerFilePath, routesObj, (err, contents) => {
 	if (err) throw err;
 });
 
+}
+export default compiler
 `
 const Pages_HomeJS = `
 //use inline html vs code extension to write html like these in template strings. Don't forget write /*html*/ or /*css*/
@@ -259,7 +262,8 @@ export default Projects`
 const Logic_ContactJS = `console.log("logic file of contact js")`
 const Logic_HomeJS = `console.log("logic file of home js")`
 
-const serverJS = `import http from 'http';
+const serverJS = `
+import http from 'http';
 import fs from 'fs/promises';
 import {
 	fileURLToPath
@@ -270,6 +274,10 @@ import {
 import path from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
+
+import compiler from './scripts/compile.js';
+
+await compiler();
 
 const server = http.createServer(async (req, res) => {
     const { method, url } = req;

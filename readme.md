@@ -1,20 +1,3 @@
-# pre-reactJS 😁
-a JS Library that helps you make single page web apps with the sacred feature of dom manipulations.
-# Installation and create app
-```
-npm install @arpit078/preactjs
-npx @arpit078/preactjs
-
-## set in package.json => "type":"module" 
-
-node scripts/compile.js
-node server
-```
-# requirements for dev environment
-    - node and npm installed to run the cli script.
-    - install inline html and live server extensions 
-    from vs code extension store.
-# Documentation
 
 ## strong instructions
 1. do not delete Pages folder.
