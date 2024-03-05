@@ -539,6 +539,13 @@ const readmeContent = `
 7. no other restriction on file naming only you need to make your entry file as Home.js and logic and pages files must have same names.
 
 `
+const packageJSON = `{
+  "dependencies": {
+    "@arpit078/preactjs": "^1.6.0"
+  },
+  "type":"module"
+}
+`
 
 
 
@@ -555,6 +562,7 @@ try {
   fs.writeFileSync('./Logic/Contact.js', Logic_ContactJS);
   fs.writeFileSync('./readme.md', readmeContent);
   fs.writeFileSync('./server.js',serverJS);
+  fs.writeFileSync('./package.json',packageJSON);
 
   fs.writeFileSync('./.gitignore', "node_modules");
 
