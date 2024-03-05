@@ -3,11 +3,7 @@ a JS Library that helps you make single page web apps with the sacred feature of
 
 ## Installation and create app
 ```
-npm i @arpit078/preactjs
 npx @arpit078/preactjs
-
-## set in package.json => "type":"module" 
-
 node server
 ```
 requirements for dev environment
